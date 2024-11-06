@@ -1,7 +1,7 @@
 # Utiliser une image Node.js officielle, ici en version alpine
 FROM node:14-alpine
 
-# Définir le répertoire de travail
+# Définir répertoire de travail
 WORKDIR /app
 
 # Copier les fichiers du répertoire actuel vers le conteneur
